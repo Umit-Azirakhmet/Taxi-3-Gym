@@ -1,5 +1,4 @@
-# Taxi-3-Gym
-# Q-Learning
+# Taxi-3-Gym-Q-Learning
 
 ## Overview
 Agen must pick up the passenger at one location and drop him off to the goal as fast as possible. It requires to build a reinforcement learning agent using the Taxi-3 Gym environment and demonstrate its learned behavior on a real Cozmo robot.
