@@ -1,0 +1,22 @@
+# Taxi-3-Gym
+# Q-Learning
+
+## Overview
+Agen must pick up the passenger at one location and drop him off to the goal as fast as possible. It requires to build a reinforcement learning agent using the Taxi-3 Gym environment and demonstrate its learned behavior on a real Cozmo robot.
+
+### Objective
+The main goal is to implement and optimize a reinforcement learning algorithm that allows the taxi robot to navigate a simulated taxi environment, pick up a passenger, and then apply this learning to the real-world Cozmo robot picking up its cube.
+
+## Getting Started
+
+1. **Taxi-3 Gym Environment**: Begin by understanding the provided implementation of a reinforcement learning agent based on the Q-learning policy of the Taxi-3 Gym environment. The environment consists of a taxi car, 4 possible destinations, and 5 possible human locations. There are 500 possible states and 6 possible actions.
+   - [Link to the RL agent implementation for Taxi-3](https://www.kaggle.com/code/karthikcs1/reinforcement-learning-taxi-v3-openai)
+
+2. **Cozmo Robot Setup**: Demonstrate the learned behavior in a physical environment using a real Cozmo robot.
+   - If you used Google Collab for the first step, switch to another IDE (e.g., IntelliJ IDEA).
+   - Connect to Cozmo's Wi-Fi and install the Cozmo API.
+   - Use the provided code snippets to control the robot's movements.
+   - [Installation Guide for IntelliJ IDEA](https://www.jetbrains.com/help/idea/installation-guide.html)
+   - [Video for troubleshooting Cozmo connection issues](https://www.youtube.com/watch?v=LhYsOvULBTU)
+
+3. **Simplify the Taxi-3 Gym Environment**: Modify the environment to have only 32 possible states, corresponding to 16 grid locations, 2 passenger locations, and 1 destination. Optimize the agent's performance for both simulated and real-world scenarios.
